@@ -2,17 +2,17 @@
 import { useEffect, useState } from "react";
 
 function CountDown(lastDate) {
-  const [showDate, setDate] = useState(5);
-  const [showHour, setHour] = useState(4);
-  const [showMinute, setMinute] = useState(3);
-  const [showSecound, setDateSecound] = useState(2);
+  const [showDate, setDate] = useState(0);
+  const [showHour, setHour] = useState(0);
+  const [showMinute, setMinute] = useState(0);
+  const [showSecound, setDateSecound] = useState(0);
   // count Down
   const provideDate = new Date(lastDate);
   // format date
   const year = provideDate.getFullYear();
   const month = provideDate.getMonth();
   //   console.log(month);
-  const date = provideDate.getDate();
+  const date = provideDate.getDate()
   //   console.log(date);
   const hours = provideDate.getHours();
   //   console.log(hours);

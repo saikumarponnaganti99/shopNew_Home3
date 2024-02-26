@@ -80,7 +80,7 @@ export default function HomeThree() {
         />
         <CampaignCountDown
           className="mb-[60px]"
-          lastDate="2023-10-04 4:00:00"
+          lastDate="2050-10-04 4:00:00"
         />
         <SectionStyleFour
           products={products}
