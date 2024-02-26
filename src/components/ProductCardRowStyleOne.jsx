@@ -1,7 +1,5 @@
 import Compair from "./svg/Compair";
-import QuickViewIco from "./svg/QuickViewIco";
 import Star from "./svg/Star";
-import ThinLove from "./svg/ThinLove";
 
 export default function ProductCardRowStyleTwo({ className, datas, type }) {
   return (

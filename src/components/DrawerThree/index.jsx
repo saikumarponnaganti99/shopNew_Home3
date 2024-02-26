@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Compair from "../svg/Compair";
-import ThinLove from "../svg/ThinLove";
 import Arrow from '../svg/Arrow'
 
 export default function DrawerThree({ className, open, action }) {

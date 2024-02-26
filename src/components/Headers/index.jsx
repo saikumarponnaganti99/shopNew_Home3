@@ -1,7 +1,7 @@
-
-import ThinBag from "../svg/ThinBag";
 import Middlebar from "./Middlebar";
 import Navbar from "./Navbar";
+import Compair from "../svg/Compair";
+
 import TopBar from "./TopBar";
 
 export default function HeaderOne({ className, drawerAction, type = 1 }) {
@@ -69,7 +69,7 @@ export default function HeaderOne({ className, drawerAction, type = 1 }) {
           <div className="cart relative cursor-pointer">
             <a to="/cart">
               <span>
-                <ThinBag />
+                <Compair />
               </span>
             </a>
             <span
