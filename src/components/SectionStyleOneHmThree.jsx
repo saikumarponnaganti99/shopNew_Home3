@@ -10,7 +10,7 @@ export default function SectionStyleOneHmThree({
   products = [],
     type
 }) {
-  const [productLength] = useState(4);
+  const [productLength] = useState(10);
   return (
     <div data-aos="fade-up" className={`section-style-one ${className || ""}`}>
       <ViewMoreTitle categoryTitle={sectionTitle} seeMoreUrl={seeMoreUrl}>
