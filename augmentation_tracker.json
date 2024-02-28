@@ -1,0 +1,215 @@
+{
+    "theme_augmentations": {
+      "color": "red",
+      "font": "Arial",
+      "size": "12px",
+      "background": "white",
+      "border": "1px solid black",
+      "radius": "5px",
+      "shadow": "2px 2px 2px 2px #888888"
+    },
+    "component_names": [
+      "Cart",
+      "DrawerThree",
+      "Footer",
+      "Headers",
+      "Middlebar",
+      "Navbar",
+      "TopBar",
+      "HomeThree",
+      "Banner",
+      "BrandSection",
+      "CampaignCountDown",
+      "DiscountBanner",
+      "ProductsAds",
+      "CategoryCard",
+      "CountDown",
+      "DataIteration",
+      "LayoutHomeThree",
+      "ProductCardRowStyleOne",
+      "ProductCardRowStyleOneTwo",
+      "ProductCardRowStyleTwo",
+      "ProductCardStyleOne",
+      "SectionStyleFour",
+      "SectionStyleOne",
+      "SectionStyleOneH",
+      "SectionStyleThree",
+      "SectionStyleTwo",
+      "SliderCom",
+      "ViewMoreTitle"
+    ],
+    "component_information": {
+      "topbar": {
+        "count": 1,
+        "location": "top of the page",
+        "description": "above the middlebar having a flex container",
+        "children": {
+          "topbar-nav": {
+            "count": 3,
+            "location": "left side of the topbar",
+            "description": "a text of list items on the left side of the topbar with a flex container"
+          },
+          "selectbox": {
+            "count": 3,
+            "location": "right side of the topbar",
+            "description": "selectboxes with flex container"
+          }
+        },
+        "children_orientation_description": "heading is a text, topbar is a topbar --  all arranged in a flex format"
+      },
+      "middlebar": {
+        "count": 1,
+        "location": "below the topbar",
+        "description": "a flex container",
+        "children": {
+          "logo": {
+            "count": 1,
+            "location": "left side of the topbar",
+            "description": "a logo on the left side"
+          },
+          "searchbox": {
+            "count": 2,
+            "location": "middle of the page",
+            "description": "a searchbox in the middle of the page along with the selectbox and a search button"
+          },
+          "profileButtons": {
+            "count": 4,
+            "location": "right side in the middlebar",
+            "description": "a flex container"
+          }
+        },
+        "children_orientation_description": "logo on the left,searchbox on middle and buttons on right, all arranged in a flex format"
+      },
+      "navbar": {
+        "count": 1,
+        "location": "below the middlebar",
+        "description": "selectbox on left, a text in thee middle and button on ta flex container",
+        "children": {
+          "Allcategories": {
+            "count": 1,
+            "location": "left side of the navbar",
+            "description": "a list of all the categories"
+          },
+          "nav-wrapper": {
+            "count": 1,
+            "location": "middle of the page",
+            "description": "a flex container"
+          },
+          "become-seller-btn": {
+            "count": 1,
+            "location": "right side of the navbar",
+            "description": "a button"
+          }
+        },
+        "children_orientation_description": "navbar is navbar, all arranged in a flex format"
+      },
+      "homethree": {
+        "count": 1,
+        "location": "bottom of the navbar",
+        "description": "a container having all the cards sections",
+        "children": {
+          "banner": {
+            "count": 3,
+            "location": "bottom of the navbar",
+            "description": "banner cards of images and a text with services of ecommerce"
+          },
+          "brandsection": {
+            "count": 1,
+            "location": "full width of the brand cards bottom of the sectionstyleone",
+            "description": "a flex container",
+            "children": {
+              "brandcards": {
+                "count": 12,
+                "location": "bottom of the banner",
+                "description": "cards with grid container having brand images."
+              }
+            }
+          },
+          "NewArrivals": {
+            "count": 1,
+            "location": "bottom of the brandsection",
+            "description": "a text heading and view-more-title on right",
+            "children": {
+              "SectionStyleThree": {
+                "count": 12,
+                "location": "bottom of newArrivals",
+                "description": "a grid container"
+              }
+            }
+          },
+          "ProductsAds": {
+            "count": 1,
+            "location": "bottom of the newArrivals",
+            "description": "a banner"
+          },
+          "GamerWorld": {
+            "count": 1,
+            "location": "bottom of the productsAds",
+            "description": "a text heading and view-more-title on right",
+            "children": {
+              "SectionStyleOneHmThree": {
+                "count":4,
+                "location": "bottom of GamerWorld",
+                "description": "a grid container"
+              }
+            }
+          },
+          "TopSellingProducts": {
+            "count": 1,
+            "location": "bottom of the gamerworld",
+            "description": "a text heading and view-more-title on right",
+            "children": {
+              "SectionStyleTwo": {
+                "count":4,
+                "location": "bottom of topsellingproducts",
+                "description": "a grid container"
+              }
+            }
+          },
+          "ProductsAds": {
+            "count": 2,
+            "location": "bottom of the topsellingproducts",
+            "description": "a banner"
+          },
+          "sectionstylethree": {
+            "count": 1,
+            "location": "bottom of the topsellingproducts and productAds",
+            "description": "a text heading and view-more-title on right",
+            "popularsales-list": {
+              "count": 4,
+              "location": "center part of the page, bottom of the popularsales",
+              "description": "a grid container"
+            }
+          },
+          "CampaignCountDown": {
+            "count": 2,
+            "location": "bottom of the sectionstylethree",
+            "description": "a text heading inside card"
+          },
+          "sectionStyleFour": {
+            "count": 1,
+            "location": "bottom of campainCoundown",
+            "description": "a text heading and view-more-title on right",
+            "popularsales-list": {
+              "count": 12,
+              "location": "center part of the page, bottom of the sectionstylethree and countdown",
+              "description": "a grid container"
+          }
+         },
+          "discountbanner": {
+            "count": 1,
+            "location": "below the popular sales",
+            "description": "a ads image with gmail address get the coupon button"
+          }
+        }
+      },
+      "footer": {
+        "count": 1,
+        "location": "bottom of the page",
+        "description": "a footer with a flex container"
+      }
+    },
+    "functionality": {},
+    "sizing_updates": [],
+    "screen_and_layout_augmentations": []
+  }
