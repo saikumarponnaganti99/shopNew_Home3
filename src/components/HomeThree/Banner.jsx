@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import SimpleSlider from "../SliderCom";
 
+
 export default function Banner({ className }) {
   const sliderRef = useRef(null);
   const settings = {
@@ -263,6 +264,110 @@ export default function Banner({ className }) {
                                       transform="rotate(135 7 5.54492)"
                                     ></rect>
                                   </svg>
+                                </span>
+                              </div>
+                              <div
+                                style={{
+                                  transition: `transform 0.25s ease-in-out`,
+                                }}
+                                className="w-full h-full bg-black absolute top-0 left-0 right-0 bottom-0 transform scale-x-0 group-hover:scale-x-100 origin-[center_left] group-hover:origin-[center_right]"
+                              ></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="item w-full xl:h-[733px] h-[500px]">
+                <div
+                  style={{
+                    backgroundImage: `url(/assets/images/banner-2.3.png)`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                  className="w-full h-full relative"
+                >
+                  <div className="container-x mx-auto flex items-center  h-full">
+                    <div className="w-full h-full xl:flex items-center pt-20 xl:pt-0">
+                      <div className="xl:w-[626px] w-full">
+                        <p className="md:text-[34px] text-[20px] font-medium text-qh3-blue mb-[7px]">
+                        WH-XB910N Wireless Noise Canceling EXTRA BASS™ Headphones with Microphone | Black
+                        </p>
+                        <h1 className="md:text-[66px] text-[40px]  font-bold text-qblack md:leading-[80px] leading-[40px] mb-[44px]">
+                          Explore Sony
+                        </h1>
+
+                        <a to="#" passhref="true">
+                          <div rel="noopener noreferrer">
+                            <div
+                              className={`w-[160px] h-[52px] flex justify-center items-center group rounded bg-qh3-blue text-white relative transition-all duration-300 ease-in-out overflow-hidden cursor-pointer ${
+                                className || ""
+                              }`}
+                            >
+                              <div className="flex space-x-1 items-center transition-all duration-300 ease-in-out relative z-10">
+                                <span className="text-sm font-600 tracking-wide leading-7 mr-2">
+                                  Shop Now
+                                </span>
+                                <span>
+                                <ArrowRight
+                      width="5.78538"
+                      height="1.28564"
+                      className="fill-current text-qwhitetext"
+                    />
+                                </span>
+                              </div>
+                              <div
+                                style={{
+                                  transition: `transform 0.25s ease-in-out`,
+                                }}
+                                className="w-full h-full bg-black absolute top-0 left-0 right-0 bottom-0 transform scale-x-0 group-hover:scale-x-100 origin-[center_left] group-hover:origin-[center_right]"
+                              ></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="item w-full xl:h-[733px] h-[500px]">
+                <div
+                  style={{
+                    backgroundImage: `url(/assets/images/banner-2.3.png)`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                  className="w-full h-full relative"
+                >
+                  <div className="container-x mx-auto flex items-center  h-full">
+                    <div className="w-full h-full xl:flex items-center pt-20 xl:pt-0">
+                      <div className="xl:w-[626px] w-full">
+                        <p className="md:text-[34px] text-[20px] font-medium text-qh3-blue mb-[7px]">
+                        Beats
+                        </p>
+                        <h1 className="md:text-[66px] text-[40px]  font-bold text-qblack md:leading-[80px] leading-[40px] mb-[44px]">
+                        Solo Pro Wireless Noise Cancelling On-Ear Headphones
+                        </h1>
+
+                        <a to="#" passhref="true">
+                          <div rel="noopener noreferrer">
+                            <div
+                              className={`w-[160px] h-[52px] flex justify-center items-center group rounded bg-qh3-blue text-white relative transition-all duration-300 ease-in-out overflow-hidden cursor-pointer ${
+                                className || ""
+                              }`}
+                            >
+                              <div className="flex space-x-1 items-center transition-all duration-300 ease-in-out relative z-10">
+                                <span className="text-sm font-600 tracking-wide leading-7 mr-2">
+                                  Shop Now
+                                </span>
+                                <span>
+                                <ArrowRight
+                      width="5.78538"
+                      height="1.28564"
+                      className="fill-current text-qwhitetext"
+                    />
                                 </span>
                               </div>
                               <div
