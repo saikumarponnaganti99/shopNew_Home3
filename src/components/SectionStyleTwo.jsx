@@ -8,7 +8,7 @@ export default function SectionStyleTwo({ className, products,type }) {
         className || ""
       }`}
     >
-      <DataIteration datas={products} startLength={0} endLength={4}>
+      <DataIteration datas={products} startLength={0} endLength={6}>
         {({ datas }) => (
           <div key={datas.id} className="item w-full">
             <ProductCardRowStyleOne type={type} datas={datas} />
