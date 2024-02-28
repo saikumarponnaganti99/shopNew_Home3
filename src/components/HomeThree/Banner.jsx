@@ -364,7 +364,7 @@ export default function Banner({ className }) {
                                   Shop Now
                                 </span>
                                 <span>
-                             <ArrowRight
+                             <ArrowRight 
 
                       width="5.78538"
                       height="1.28564"
