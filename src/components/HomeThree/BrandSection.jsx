@@ -133,6 +133,66 @@ export default function BrandSection({ className, sectionTitle, type }) {
               />
             </div>
           </div>
+          <div className="item">
+            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center p-10">
+              <img
+                src={`${
+                  import.meta.env.VITE_PUBLIC_URL
+                }src/assets/images/brand-13.png`}
+                alt="logo"
+              />
+            </div>
+          </div>
+          <div className="item">
+            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center p-10">
+              <img
+                src={`${
+                  import.meta.env.VITE_PUBLIC_URL
+                }src/assets/images/brand-14.png`}
+                alt="logo"
+              />
+            </div>
+          </div>
+          <div className="item">
+            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center p-10">
+              <img
+                src={`${
+                  import.meta.env.VITE_PUBLIC_URL
+                }src/assets/images/brand-15.png`}
+                alt="logo"
+              />
+            </div>
+          </div>
+          <div className="item">
+            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center p-10">
+              <img
+                src={`${
+                  import.meta.env.VITE_PUBLIC_URL
+                }src/assets/images/brand-16.png`}
+                alt="logo"
+              />
+            </div>
+          </div>
+          <div className="item">
+            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center p-10">
+              <img
+                src={`${
+                  import.meta.env.VITE_PUBLIC_URL
+                }src/assets/images/brand-17.png`}
+                alt="logo"
+              />
+            </div>
+          </div>
+          <div className="item">
+            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center p-10">
+              <img
+                src={`${
+                  import.meta.env.VITE_PUBLIC_URL
+                }src/assets/images/brand-18.png`}
+                alt="logo"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

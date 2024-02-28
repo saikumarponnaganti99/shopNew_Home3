@@ -24,7 +24,7 @@
       "campaingn_product": true,
       "cam_product_available": 20,
       "cam_product_sale": 10,
-      "product_type": null
+      "product_type": "popular"
     },
     {
       "id": "62aefe9af9a0e865ee49c99e",
@@ -76,7 +76,7 @@
       "campaingn_product": false,
       "cam_product_available": null,
       "cam_product_sale": null,
-      "product_type": null
+      "product_type": "popular"
     },
     {
       "id": "62aefe9aa2577bc8fa4ea7bc",
@@ -115,7 +115,7 @@
       "campaingn_product": false,
       "cam_product_available": null,
       "cam_product_sale": null,
-      "product_type": null
+      "product_type": "new"
     },
     {
       "id": "62aefe9a39099843b144dc3a",
