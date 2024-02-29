@@ -15,7 +15,6 @@ export default function LayoutHomeThree({ children, childrenClasses, type }) {
           {children && children}
         </div>
         <DiscountBanner type={3} />
-        <Footer type={type} />
       </div>
     </>
   );
