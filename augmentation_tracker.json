@@ -125,18 +125,6 @@
               }
             }
           },
-          "NewArrivals": {
-            "count": 1,
-            "location": "bottom of the brandsection",
-            "description": "a text heading and view-more-title on right",
-            "children": {
-              "SectionStyleThree": {
-                "count": 12,
-                "location": "bottom of newArrivals",
-                "description": "a grid container"
-              }
-            }
-          },
           "ProductsAds": {
             "count": 1,
             "location": "bottom of the newArrivals",
