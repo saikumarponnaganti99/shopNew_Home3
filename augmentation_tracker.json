@@ -70,7 +70,7 @@
           "searchbox": {
             "count": 2,
             "location": "middle of the page",
-            "description": "a searchbox in the middle of the page along with the selectbox and a search button"
+            "description": "a searchbox in the middle of the page along with the selectbox and a {search button-is in leftside}"
           },
           "profileButtons": {
             "count": 4,

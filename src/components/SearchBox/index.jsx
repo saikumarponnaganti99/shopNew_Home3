@@ -1,4 +1,4 @@
-export default function SearchBox({ className,type }) {
+export default function SearchBox({ className, type }) {
   return (
     <>
       <div
@@ -6,6 +6,14 @@ export default function SearchBox({ className,type }) {
           className || ""
         }`}
       >
+        <button
+          className={` w-[93px] h-full text-sm font-600  ${
+            type === 3 ? "bg-qh3-blue text-white" : "search-btn"
+          }`}
+          type="button"
+        >
+          Search
+        </button>
         <div className="flex-1 bg-red-500 h-full">
           <form action="#" className="h-full">
             <input
@@ -50,12 +58,6 @@ export default function SearchBox({ className,type }) {
             </span>
           </button>
         </div>
-        <button
-          className={` w-[93px] h-full text-sm font-600  ${type===3?'bg-qh3-blue text-white':'search-btn'}`}
-          type="button"
-        >
-          Search
-        </button>
       </div>
     </>
   );
