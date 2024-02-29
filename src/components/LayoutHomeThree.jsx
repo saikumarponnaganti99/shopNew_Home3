@@ -12,9 +12,10 @@ export default function LayoutHomeThree({ children, childrenClasses, type }) {
       <div className="w-full overflow-x-hidden">
         <Header type={3} drawerAction={() => setDrawer(!drawer)} />
         <div className={`w-full  ${childrenClasses || "pt-[30px] pb-[60px]"}`}>
+          <DiscountBanner type={3} />
           {children && children}
         </div>
-        <DiscountBanner type={3} />
+
         <Footer type={type} />
       </div>
     </>

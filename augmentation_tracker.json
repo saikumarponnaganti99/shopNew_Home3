@@ -108,6 +108,11 @@
         "location": "bottom of the navbar",
         "description": "a container having all the cards sections",
         "children": {
+          "discountbanner": {
+            "count": 1,
+            "location": "below the popular sales",
+            "description": "a ads image with gmail address get the coupon button"
+          },
           "banner": {
             "count": 3,
             "location": "bottom of the navbar",
@@ -196,11 +201,7 @@
               "description": "a grid container"
           }
          },
-          "discountbanner": {
-            "count": 1,
-            "location": "below the popular sales",
-            "description": "a ads image with gmail address get the coupon button"
-          }
+          
         }
       },
       "footer": {
