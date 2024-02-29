@@ -32,10 +32,7 @@ export default function HomeThree() {
           seeMoreUrl="/all-products"
           className="new-products mb-[60px]"
         />
-        <ProductsAds
-          ads={[`${import.meta.env.VITE_PUBLIC_URL}src/assets/images/ads-3.png`]}
-          className="products-ads-section mb-[60px]"
-        />
+        
 
         <SectionStyleOneHmThree
           type={3}
@@ -58,14 +55,7 @@ export default function HomeThree() {
           />
         </ViewMoreTitle>
 
-        <ProductsAds
-          ads={[
-            `${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-1.png`,
-            `${import.meta.env.VITE_PUBLIC_URL}src/assets/images/ads-2.png`,
-          ]}
-          sectionHeight="sm:h-[295px] h-full"
-          className="products-ads-section mb-[60px]"
-        />
+        
         <SectionStyleOneHmThree
           type={3}
           categoryBackground={`${

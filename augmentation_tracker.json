@@ -137,11 +137,7 @@
               }
             }
           },
-          "ProductsAds": {
-            "count": 1,
-            "location": "bottom of the newArrivals",
-            "description": "a banner"
-          },
+          
           "GamerWorld": {
             "count": 1,
             "location": "bottom of the productsAds",
@@ -166,11 +162,7 @@
               }
             }
           },
-          "ProductsAds": {
-            "count": 2,
-            "location": "bottom of the topsellingproducts",
-            "description": "a banner"
-          },
+          
           "sectionstylethree": {
             "count": 1,
             "location": "bottom of the topsellingproducts and productAds",
