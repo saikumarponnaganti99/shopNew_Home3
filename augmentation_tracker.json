@@ -108,11 +108,6 @@
         "location": "bottom of the navbar",
         "description": "a container having all the cards sections",
         "children": {
-          "banner": {
-            "count": 3,
-            "location": "bottom of the navbar",
-            "description": "banner cards of images and a text with services of ecommerce"
-          },
           "brandsection": {
             "count": 1,
             "location": "full width of the brand cards bottom of the sectionstyleone",
