@@ -39,24 +39,7 @@
       "ViewMoreTitle"
     ],
     "component_information": {
-      "topbar": {
-        "count": 1,
-        "location": "top of the page",
-        "description": "above the middlebar having a flex container",
-        "children": {
-          "topbar-nav": {
-            "count": 3,
-            "location": "left side of the topbar",
-            "description": "a text of list items on the left side of the topbar with a flex container"
-          },
-          "selectbox": {
-            "count": 3,
-            "location": "right side of the topbar",
-            "description": "selectboxes with flex container"
-          }
-        },
-        "children_orientation_description": "heading is a text, topbar is a topbar --  all arranged in a flex format"
-      },
+      
       "middlebar": {
         "count": 1,
         "location": "below the topbar",
@@ -79,6 +62,24 @@
           }
         },
         "children_orientation_description": "logo on the left,searchbox on middle and buttons on right, all arranged in a flex format"
+      },
+      "topbar": {
+        "count": 1,
+        "location": "top of the page",
+        "description": "above the middlebar having a flex container",
+        "children": {
+          "topbar-nav": {
+            "count": 3,
+            "location": "left side of the topbar",
+            "description": "a text of list items on the left side of the topbar with a flex container"
+          },
+          "selectbox": {
+            "count": 3,
+            "location": "right side of the topbar",
+            "description": "selectboxes with flex container"
+          }
+        },
+        "children_orientation_description": "heading is a text, topbar is a topbar --  all arranged in a flex format"
       },
       "navbar": {
         "count": 1,
