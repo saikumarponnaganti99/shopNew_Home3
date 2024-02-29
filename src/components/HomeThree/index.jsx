@@ -20,11 +20,11 @@ export default function HomeThree() {
     <>
       <LayoutHomeThree type={3} childrenClasses="pt-0">
         <Banner className="banner-wrapper mb-[60px]" />
-        <BrandSection
+        {/* <BrandSection
           type={3}
           sectionTitle="Shop by Brand"
           className="brand-section-wrapper mb-[60px]"
-        />
+        /> */}
         <SectionStyleThree
           type={3}
           products={products}

@@ -113,18 +113,6 @@
             "location": "bottom of the navbar",
             "description": "banner cards of images and a text with services of ecommerce"
           },
-          "brandsection": {
-            "count": 1,
-            "location": "full width of the brand cards bottom of the sectionstyleone",
-            "description": "a flex container",
-            "children": {
-              "brandcards": {
-                "count": 12,
-                "location": "bottom of the banner",
-                "description": "cards with grid container having brand images."
-              }
-            }
-          },
           "NewArrivals": {
             "count": 1,
             "location": "bottom of the brandsection",
