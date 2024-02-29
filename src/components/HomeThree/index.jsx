@@ -19,6 +19,10 @@ export default function HomeThree() {
   return (
     <>
       <LayoutHomeThree type={3} childrenClasses="pt-0">
+      <CampaignCountDown
+          className="mb-[60px]"
+          lastDate="2050-10-04 4:00:00"
+        />
         <Banner className="banner-wrapper mb-[60px]" />
         <BrandSection
           type={3}
@@ -78,10 +82,7 @@ export default function HomeThree() {
           seeMoreUrl="/all-products"
           className="category-products mb-[60px]"
         />
-        <CampaignCountDown
-          className="mb-[60px]"
-          lastDate="2050-10-04 4:00:00"
-        />
+        
         <SectionStyleFour
           products={products}
           sectionTitle="Popular Sales"

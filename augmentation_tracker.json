@@ -108,6 +108,11 @@
         "location": "bottom of the navbar",
         "description": "a container having all the cards sections",
         "children": {
+          "CampaignCountDown": {
+            "count": 2,
+            "location": "bottom of the sectionstylethree",
+            "description": "a text heading inside card"
+          },
           "banner": {
             "count": 3,
             "location": "bottom of the navbar",
@@ -181,11 +186,7 @@
               "description": "a grid container"
             }
           },
-          "CampaignCountDown": {
-            "count": 2,
-            "location": "bottom of the sectionstylethree",
-            "description": "a text heading inside card"
-          },
+          
           "sectionStyleFour": {
             "count": 1,
             "location": "bottom of campainCoundown",
