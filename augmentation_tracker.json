@@ -99,7 +99,7 @@
             "count": 1,
             "location": "right of the page",
             "description": "a flex container"
-          },
+          }
           
         },
         "children_orientation_description": "navbar is navbar, all arranged in a flex format"
