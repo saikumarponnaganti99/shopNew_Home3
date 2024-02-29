@@ -113,6 +113,15 @@
             "location": "bottom of the navbar",
             "description": "banner cards of images and a text with services of ecommerce"
           },
+          "sectionStyleFour": {
+            "count": 1,
+            "location": "bottom of campainCoundown",
+            "description": "a text heading and view-more-title on right",
+            "popularsales-list": {
+              "count": 12,
+              "location": "center part of the page, bottom of the sectionstylethree and countdown",
+              "description": "a grid container"
+          },
           "brandsection": {
             "count": 1,
             "location": "full width of the brand cards bottom of the sectionstyleone",
@@ -186,15 +195,7 @@
             "location": "bottom of the sectionstylethree",
             "description": "a text heading inside card"
           },
-          "sectionStyleFour": {
-            "count": 1,
-            "location": "bottom of campainCoundown",
-            "description": "a text heading and view-more-title on right",
-            "popularsales-list": {
-              "count": 12,
-              "location": "center part of the page, bottom of the sectionstylethree and countdown",
-              "description": "a grid container"
-          }
+          
          },
           "discountbanner": {
             "count": 1,
