@@ -20,6 +20,12 @@ export default function HomeThree() {
     <>
       <LayoutHomeThree type={3} childrenClasses="pt-0">
         <Banner className="banner-wrapper mb-[60px]" />
+        <SectionStyleFour
+          products={products}
+          sectionTitle="Popular Sales"
+          seeMoreUrl="/all-products"
+          className="category-products mb-[60px]"
+        />
         <BrandSection
           type={3}
           sectionTitle="Shop by Brand"
@@ -82,12 +88,7 @@ export default function HomeThree() {
           className="mb-[60px]"
           lastDate="2050-10-04 4:00:00"
         />
-        <SectionStyleFour
-          products={products}
-          sectionTitle="Popular Sales"
-          seeMoreUrl="/all-products"
-          className="category-products mb-[60px]"
-        />
+        
       </LayoutHomeThree>
     </>
   );
