@@ -85,21 +85,22 @@
         "location": "below the middlebar",
         "description": "selectbox on left, a text in thee middle and button on ta flex container",
         "children": {
-          "Allcategories": {
+          "become-seller-btn": {
             "count": 1,
             "location": "left side of the navbar",
+            "description": "a button"
+          },
+          "Allcategories": {
+            "count": 1,
+            "location": "middleside of the navbar",
             "description": "a list of all the categories"
           },
           "nav-wrapper": {
             "count": 1,
-            "location": "middle of the page",
+            "location": "right of the page",
             "description": "a flex container"
           },
-          "become-seller-btn": {
-            "count": 1,
-            "location": "right side of the navbar",
-            "description": "a button"
-          }
+          
         },
         "children_orientation_description": "navbar is navbar, all arranged in a flex format"
       },
