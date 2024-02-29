@@ -108,11 +108,7 @@
         "location": "bottom of the navbar",
         "description": "a container having all the cards sections",
         "children": {
-          "banner": {
-            "count": 3,
-            "location": "bottom of the navbar",
-            "description": "banner cards of images and a text with services of ecommerce"
-          },
+          
           "brandsection": {
             "count": 1,
             "location": "full width of the brand cards bottom of the sectionstyleone",
@@ -120,23 +116,17 @@
             "children": {
               "brandcards": {
                 "count": 12,
-                "location": "bottom of the banner",
+                "location": "bottom of the navbar",
                 "description": "cards with grid container having brand images."
               }
             }
           },
-          "NewArrivals": {
-            "count": 1,
+          "banner": {
+            "count": 3,
             "location": "bottom of the brandsection",
-            "description": "a text heading and view-more-title on right",
-            "children": {
-              "SectionStyleThree": {
-                "count": 12,
-                "location": "bottom of newArrivals",
-                "description": "a grid container"
-              }
-            }
+            "description": "banner cards of images and a text with services of ecommerce"
           },
+          
           "ProductsAds": {
             "count": 1,
             "location": "bottom of the newArrivals",
@@ -162,6 +152,18 @@
               "SectionStyleTwo": {
                 "count":4,
                 "location": "bottom of topsellingproducts",
+                "description": "a grid container"
+              }
+            }
+          },
+          "NewArrivals": {
+            "count": 1,
+            "location": "bottom of the brandsection",
+            "description": "a text heading and view-more-title on right",
+            "children": {
+              "SectionStyleThree": {
+                "count": 12,
+                "location": "bottom of newArrivals",
                 "description": "a grid container"
               }
             }

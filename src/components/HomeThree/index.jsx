@@ -25,13 +25,7 @@ export default function HomeThree() {
           sectionTitle="Shop by Brand"
           className="brand-section-wrapper mb-[60px]"
         />
-        <SectionStyleThree
-          type={3}
-          products={products}
-          sectionTitle="New Arrivals"
-          seeMoreUrl="/all-products"
-          className="new-products mb-[60px]"
-        />
+        
         <ProductsAds
           ads={[`${import.meta.env.VITE_PUBLIC_URL}src/assets/images/ads-3.png`]}
           className="products-ads-section mb-[60px]"
@@ -57,6 +51,13 @@ export default function HomeThree() {
             products={products.slice(3, products.length)}
           />
         </ViewMoreTitle>
+        <SectionStyleThree
+          type={3}
+          products={products}
+          sectionTitle="New Arrivals"
+          seeMoreUrl="/all-products"
+          className="new-products mb-[60px]"
+        />
 
         <ProductsAds
           ads={[
