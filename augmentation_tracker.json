@@ -181,11 +181,7 @@
               "description": "a grid container"
             }
           },
-          "CampaignCountDown": {
-            "count": 2,
-            "location": "bottom of the sectionstylethree",
-            "description": "a text heading inside card"
-          },
+          
           "sectionStyleFour": {
             "count": 1,
             "location": "bottom of campainCoundown",

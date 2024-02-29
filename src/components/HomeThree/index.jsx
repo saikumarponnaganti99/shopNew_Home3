@@ -78,10 +78,7 @@ export default function HomeThree() {
           seeMoreUrl="/all-products"
           className="category-products mb-[60px]"
         />
-        <CampaignCountDown
-          className="mb-[60px]"
-          lastDate="2050-10-04 4:00:00"
-        />
+        
         <SectionStyleFour
           products={products}
           sectionTitle="Popular Sales"
